@@ -1,0 +1,301 @@
+header {
+    background-image: url(../img/top.jpeg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    height: 830px;
+    z-index: 4;
+}
+
+.top_text {
+    padding-left: 350px;
+    padding-top: 450px;
+    color: white;
+    font-size: 40px;
+    text-shadow: #858484 3px 3px;
+}
+
+.top_text h1 {
+    padding-top: 30px;
+}
+
+.info {
+    position: top;
+    z-index: 3;
+    width: 80%;
+    padding-left: 200px;
+    padding-top: 70px;
+}
+
+.info_nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.info_left {
+    width: 30%;
+    padding-left: 50px;
+    padding-top: 180px;
+}
+
+.info_left h1 {
+    font-size: 30px;
+    padding-bottom: 130px;
+}
+
+.info_right {
+    width: 70%;
+    padding-top: 170px;
+    margin-right: 200px;
+}
+
+.info_right p {
+    padding-bottom: 20px;
+    padding-top: 15px;
+    border-bottom: 1px solid #404040;
+}
+
+.info_right strong {
+    color: #777777;
+}
+
+
+/*---------------------------------------------------
+CONCEPT */
+.con_inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 550px;
+}
+
+.con_left {
+    width: 50%;
+}
+
+.con_left img {
+    width: 77%;
+}
+
+.con_right {
+    width: 24%;
+    padding-top: 290px;
+    padding-right: 250px;
+}
+
+.con_title {
+    display: flex;
+}
+
+.con_title img {
+    width: 20px;
+    height: 20px;
+}
+
+.con_title p {
+    font-size: 15px;
+    padding-bottom: 7px;
+}
+
+.main_title{
+    font-size: 28px;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+
+.text {
+    letter-spacing: 3px;
+    line-height: 35px;
+    padding-bottom: 70px;
+}
+
+.con_right a {
+    margin-left: 80px;
+}
+
+
+/*-----------------------------------------------
+FEATURE */
+.feature {
+    padding-top: 200px;
+}
+
+.fea_box {
+    position: relative;
+    text-align: center;
+}
+
+.fea_box img {
+    width: 70%;
+    height: 500px;
+}
+
+.fea_inner {
+    display: flex;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 70%;
+}
+
+.fea_left{
+    display: flex;
+    margin-left: 35%;
+    margin-top: 25%;
+}
+
+.fea_left p {
+    color: #fff;
+}
+
+.fea_left img {
+    width: 40px;
+    height: 40px;
+}
+
+.fea_left p {
+    font-size: 35px;
+}
+
+.fea_right {
+    width: 44%;
+    margin-left: 70px;
+    margin-top: 18%;
+}
+
+.fea_right p {
+    color: #fff;
+}
+
+.fea_right .button {
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 60px 15px 60px;
+    border: solid #fff 1px;
+    border-radius: 6px;
+    background-color: rgba(150,181,152,0);
+    transition: .4s;
+}
+
+.fea_right .button:hover {
+    background-color: #fff;
+    border: solid #fff 1px;
+    color: #404040;
+    border-radius: 6px;
+}
+
+
+/*-----------------------------------------------
+SERVICE */
+.ser_title {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 610px;
+}
+
+.ser_title img {
+    width: 40px;
+    height: 40px;
+}
+
+.ser_title p {
+    font-size: 35px;
+}
+
+.ser_inner {
+    display: flex;
+    padding-left: 200px;
+    padding-top: 150px;
+}
+
+.ser_left1 {
+    width: 27%;
+    padding-top: 200px;
+    padding-right: 150px;
+}
+
+.ser_left1 p {
+    font-size: 17px;
+    letter-spacing: 4px;
+    line-height: 29px;
+    padding-bottom: 60px;
+}
+
+.ser_left1 .button {
+    margin-left: 80px;
+}
+
+.ser_inner img {
+    width: 600px;
+    height: 500px;
+}
+
+.ser_left2 {
+    padding-right: 50px;
+}
+
+.ser_right2 {
+    width: 27%;
+    padding-top: 200px;
+    padding-left: 130px;
+}
+
+.ser_right2 p {
+    font-size: 17px;
+    letter-spacing: 4px;
+    line-height: 29px;
+    padding-bottom: 60px;
+}
+
+/* ----------------------------------------
+CONTACT */
+.contact {
+    width: 70%;
+    margin-top: 200px;
+    margin-left: 150px;
+    background-color: #404040;
+}
+
+.contact_inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 110px;
+    padding-bottom: 90px;
+    color: #fff;
+}
+
+.contact_inner img {
+    width: 40px;
+    height: 40px;
+}
+
+.contact_title {
+    display: flex;
+    margin-left: 100px;
+}
+
+.contact_title p {
+    font-size: 33px;
+}
+
+.contact_title p small {
+    font-size: 15px;
+}
+
+.contact_button {
+    padding-right: 100px;
+}
+
+.contact_inner a {
+    font-size: 30px;
+    color: #fff;
+    padding: 15px 19px 15px 19px;
+    border: solid #fff 1px;
+    border-radius: 50%;
+    background-color: #40404000;
+    transition: .4s;
+}
+
+.contact_inner a:hover {
+    padding: 20px 24px 20px 24px;
+}

@@ -1,0 +1,46 @@
+.flex {
+    display: flex;
+    padding-top: 200px;
+}
+
+.flex img {
+    width: 40%;
+    height: 700px;
+    padding-left: 100px;
+}
+
+.text {
+    width: 27%;
+    padding-left: 150px;
+    padding-top: 250px;
+}
+
+.main {
+    font-size: 23px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+.sub {
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.fea_box {
+    padding-top: 200px;
+    padding-left: 180px;
+    position: relative;
+}
+
+.img {
+    width: 80%;
+    height: 600px;
+}
+
+.fea_box .text {
+    position: absolute;
+    top: 0;
+    padding-left: 300px;
+    padding-top: 730px;
+}
