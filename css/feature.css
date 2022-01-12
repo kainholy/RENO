@@ -29,18 +29,49 @@
 
 .fea_box {
     padding-top: 200px;
-    padding-left: 180px;
+    padding-left: 120px;
     position: relative;
 }
 
 .img {
-    width: 80%;
+    width: 90%;
     height: 600px;
 }
 
 .fea_box .text {
+    width: 590px;
     position: absolute;
     top: 0;
-    padding-left: 300px;
-    padding-top: 730px;
+    padding-left: 190px;
+    padding-top: 670px;
+}
+
+.fea_box .text::before {
+    content: "";
+    position: absolute;
+    background-color: #96B598;
+    opacity: 0.5;
+    width: 750px;
+    height: 350px;
+    z-index: 1;
+}
+
+.main2 {
+    position: absolute;
+    z-index: 2;
+    font-size: 23px;
+    letter-spacing: 2px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 160px;
+}
+
+.sub2 {
+    position: absolute;
+    z-index: 2;
+    padding-top: 150px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    padding-left: 160px;
 }

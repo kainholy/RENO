@@ -1,0 +1,236 @@
+.con_text {
+    padding-top: 160px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.con_text p {
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 60px;
+}
+
+.form {
+    background-color: rgb(185, 185, 185, 0.2);
+    padding-top: 100px;
+}
+
+.form_title {
+    display: flex;
+    padding-left: 560px;
+}
+
+.form_title img {
+    width: 50px;
+    height: 50px;
+    mix-blend-mode: multiply;
+}
+
+.form_title p {
+    font-size: 30px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+}
+
+.Form {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 80px;
+  max-width: 900px;
+}
+
+.Form-Item {
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.Form-Item:nth-child(5) {
+  border-bottom: 1px solid #ddd;
+}
+
+.Form-Item-Label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-size: 18px;
+}
+
+.Form-Item-Label.isMsg {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+
+.Form-Item-Label-Required {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: rgb(125, 175, 128);
+  color: #fff;
+  font-size: 14px;
+}
+
+.Form-Item-Input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 200px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 48px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+
+.Form-Item-Textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 200px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 216px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+
+.Form-Btn {
+  border-radius: 6px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 280px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: rgb(125, 175, 128);
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.access {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.access_title {
+    display: flex;
+    padding-left: 610px;
+}
+
+.access_title img {
+    width: 50px;
+    height: 50px;
+    mix-blend-mode: multiply;
+}
+
+.access_title p {
+    padding-top: 7px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.access_container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    display: flex;
+}
+
+.address {
+    background-color: rgba(150,181,152,0.5);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.main {
+    font-size: 23px;
+    padding-top: 30px;
+    letter-spacing: 3px;
+}
+
+.sub {
+    font-size: 17px;
+    padding-top: 10px;
+    letter-spacing: 3px;
+    line-height: 25px;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    .Form {
+        margin-top: 40px;
+    }
+
+    .Form-Item {
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        flex-wrap: wrap;
+    }
+
+    .Form-Item-Label {
+        max-width: inherit;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .Form-Item-Label.isMsg {
+        margin-top: 0;
+    }
+
+    .Form-Item-Label-Required {
+        border-radius: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        width: 32px;
+        font-size: 10px;
+    }
+
+    .Form-Item-Input {
+        margin-left: 0;
+        margin-top: 18px;
+        height: 40px;
+        flex: inherit;
+        font-size: 15px;
+    }
+
+    .Form-Item-Textarea {
+        margin-top: 18px;
+        margin-left: 0;
+        height: 200px;
+        flex: inherit;
+        font-size: 15px;
+    }
+
+    .Form-Btn {
+        margin-top: 24px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+       width: 160px;
+        font-size: 16px;
+    }
+}
