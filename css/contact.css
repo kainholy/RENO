@@ -179,6 +179,21 @@
 
 
 @media screen and (max-width: 480px) {
+    .con_text {
+        width: 70%;
+        padding-left: 15%;
+    }
+
+    .con_text p {
+        font-size: 17px;
+        line-height: 50px
+    }
+
+    .form_title {
+        display: flex;
+        padding-left: 0;
+    }
+
     .Form {
         margin-top: 40px;
     }
@@ -232,5 +247,31 @@
         padding-bottom: 8px;
        width: 160px;
         font-size: 16px;
+    }
+
+    .access_title {
+        padding-left: 30%;
+    }
+
+    .access_container {
+        width: 100%;
+        padding-top: 50px;
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .address {
+        background-color: rgba(150,181,152,0.5);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 100px;
+        padding-left: 50px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    iframe {
+        width: 100%;
     }
 }

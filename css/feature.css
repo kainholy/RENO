@@ -75,3 +75,63 @@
     line-height: 50px;
     padding-left: 160px;
 }
+
+
+@media screen and (max-width: 480px){
+    .flex {
+        display: block;
+    }
+
+    .flex img {
+        width: 80%;
+        height: 400px;
+        padding-left: 10%;
+    }
+
+    .text {
+        width: 80%;
+        padding-left: 10%;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .fea_box {
+        padding-left: 0%;
+        padding-top: 150px;
+        position: relative;
+    }
+
+    .img {
+        padding-left: 5%;
+        padding-bottom: 300px;
+        height: 300px;
+    }
+
+    .fea_box .text::before {
+        width: 90%;
+        height: 250px;
+        left: 10%;
+        top: 350px;
+    }
+
+    .fea_box .text {
+        width: 90%;
+        position: absolute;
+        top: 0;
+        padding-left: 0%;
+        padding-top: 0px;
+    }
+
+    .main2 {
+        padding-top: 380px;
+        padding-bottom: 20px;
+        padding-left: 30%;
+    }
+
+    .sub2 {
+        width: 70%;
+        padding-top: 420px;
+        padding-left: 20%;
+        line-height: 40px;
+    }
+}
